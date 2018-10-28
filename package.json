@@ -1,0 +1,17 @@
+{
+  "name": "FrothHiss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "reporters": "mocha --reporters",
+    "test": "mocha --reporter nyan --recursive",
+    "test:watch": "mocha --reporter nyan --recursive --watch",
+    "example": "node bin/frothhiss"
+  },
+  "author": "Matt Folkard",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "run-func": "^1.0.2"
+  }
+}
