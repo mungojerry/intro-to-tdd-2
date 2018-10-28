@@ -13,9 +13,9 @@ exports.run = (min, max) => {
 
 exports.getResult = (value) => {
   var results = '';
-  if (value % 3 === 0) results += ('Froth');
-  if (value % 5 === 0) results += ('Hiss');
-  if (!results.length) results += (value);
+  if (value % 3 === 0) results += 'Froth';
+  if (value % 5 === 0) results += 'Hiss';
+  if (!results.length) results += '' + (value);
   return results;
 };
 

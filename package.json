@@ -1,7 +1,8 @@
 {
-  "name": "FrothHiss",
+  "name": "@bpp/frothhiss",
   "version": "1.0.0",
-  "description": "",
+  "description": "Froth Hiss TDD Example",
+  "repository": {},
   "main": "index.js",
   "scripts": {
     "reporters": "mocha --reporters",
@@ -11,7 +12,7 @@
   },
   "author": "Matt Folkard",
   "devDependencies": {
-    "mocha": "^2.4.5",
-    "run-func": "^1.0.2"
+    "chai": "^4.2.0",
+    "mocha": "^2.4.5"
   }
 }
