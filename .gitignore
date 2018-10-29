@@ -21,6 +21,7 @@ npm-debug.log*
 .sourcemaps/
 .sass-cache/
 .tmp/
+.nyc_output/
 .versions/
 coverage/
 dist/
