@@ -1,7 +1,17 @@
 exports.run = (min, max) => {
-    return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
-}
+    var output = [];
+    for (var i = min; i <= max; i++) {
+        output.push(exports.getResult(i));
+    }
+    return output;
+};
 
-exports.getResults = (value) => {
-    return value;
-}
+exports.getResult = (value) => {
+    var results = '';
+    if (value % 3 === 0) results += 'Froth';
+    if (value % 5 === 0) results += 'Hiss';
+    if (!results.length) results += '' + (value);
+    return results;
+};
+
+
