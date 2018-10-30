@@ -49,7 +49,7 @@ describe('frothhiss', () => {
       expect(frothhiss.getResult(15)).to.not.equal('Hiss');
     });
 
-    it('should return FrothHiss when inout is 15', () => {
+    it('should return FrothHiss when input is 15', () => {
       expect(frothhiss.getResult(15)).to.equal('FrothHiss');
     });
   });
